@@ -1,4 +1,4 @@
-| Componente |	Opción Inicial |	Rapidez 🚀 | Escalabilidad 📈 |
+| Componente |	Technology |	Rapidez 🚀 | Escalabilidad 📈 |
 |------------|-----------------|-------------|-----------------|
 | Networking (Conexión entre nodos) | Nebula + QUIC |	🔥🔥🔥🔥 Muy rápida | 📈📈📈 Alta (Miles de nodos) |
 | DNS Interno | CoreDNS + NATS KV	| 🔥🔥🔥🔥 Muy rápida | 📈📈📈📈 Muy alta |
