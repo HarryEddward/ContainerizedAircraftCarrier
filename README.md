@@ -36,9 +36,30 @@ Well, I was thinking that we could have all these new features:
 - Functions directly for production, avoiding ambiguous functions
 - Always encrypted networks
 - Automatic CI/CD by projects, through Jenkins native proxy container using Jenkinsfiles
+- Automatic secure conexion from shell to nodes slaves, with encrypted list of node slaves
 
 ## How use it?
 
 SAC (**SwarmAircraftCarrier**)
 
+### Initialize Node Master
 ```docker-sac init --ip-advertise [IP] --pre-configuration-file [PATH_FILE]```
+
+Return:
+```
+ _____                               ___  _                     __ _   _____                 _            
+/  ___|                             / _ \(_)                   / _| | /  __ \               (_)           
+\ `--.__      ____ _ _ __ _ __ ___ / /_\ \_ _ __ ___ _ __ __ _| |_| |_| /  \/ __ _ _ __ _ __ _  ___ _ __  
+ `--. \ \ /\ / / _` | '__| '_ ` _ \|  _  | | '__/ __| '__/ _` |  _| __| |    / _` | '__| '__| |/ _ \ '__| 
+/\__/ /\ V  V / (_| | |  | | | | | | | | | | | | (__| | | (_| | | | |_| \__/\ (_| | |  | |  | |  __/ |    
+\____/  \_/\_/ \__,_|_|  |_| |_| |_\_| |_/_|_|  \___|_|  \__,_|_|  \__|\____/\__,_|_|  |_|  |_|\___|_|    
+                                                                                                          
+
+-- SwarmAircraftCarrier: Enabled
+-- Docker: Connected
+** IP PUBLISHED (Node Master) **=> "192.168.1.163"
+** PORT (To Connect Node Slaves) **=> "4488"
+** PORT (UI Orchestrator Manager) **=> "5577"
+```
+
+###
