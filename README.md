@@ -9,6 +9,15 @@
 ## Why SwarmAircraftCarrier?
 <img src="https://github.com/HarryEddward/ContainerizedAircraftCarrier/blob/main/.github/img/swarm_light.png?raw=true" alt="alt text" width="225">
 
+You want a:
+- 🚀 Put your services in the fastest and secure way into production
+- ⚡ Optimized nodes without a lot of configuration
+- 💰 Do not use expensive cloud services
+- 🐳 Easy integration with docker-compose.yml files
+- ✍️ Flexible, concise, avoid repeating yourself configuration
+- 🔄 Flexible like Kubernetes, but concise like Docker Swarm orchestrator
+- 🔁 Easy migration from Docker Swarm
+
 When you think about putting your own programs into production, you think about being able to isolate them so they are safe and not worry about the configuration, not worry about what happens from the orchestrator.
 
 Nowadays, k8s is often used in business environments, and it is often very difficult to build clusters in a simple way and they are done through cloud services. Outside of this, it is already complicated to manage the services themselves, you have to use very verbose charts that are really difficult to manage.
