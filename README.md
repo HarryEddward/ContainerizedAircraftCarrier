@@ -51,6 +51,8 @@ docker-sac init
    --project-name                                    [PROYECT_NAME]    [AppBackend]
    --project-dir                                     [ABS_PATH_DIR]    [/usr/HarryEddward/documents/project]
 ```
+### Why we need separate the Web Orchestrator Manager within slave node?
+We cannot overload the master node with information. We can ask it for data, but in production we cannot allow ourselves to have unexpected errors or overloads. In the slaves we can. Because users will encounter a problem with response speed, with the additional overhead of hosting it on the master node.
 
 Return:
 ```
