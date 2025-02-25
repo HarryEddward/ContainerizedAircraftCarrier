@@ -1,6 +1,6 @@
 # ContainerizedAircraftCarrier
 
-![alt text](https://github.com/HarryEddward/ContainerizedAircraftCarrier/blob/main/.github/img/logo.png?raw=true)
+<img src="https://github.com/HarryEddward/ContainerizedAircraftCarrier/blob/main/.github/img/logo.png?raw=true" alt="alt text" width="150">
 
 ## Simple, fast, secure, and production-ready container orchestrator.
 
