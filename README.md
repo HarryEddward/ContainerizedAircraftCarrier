@@ -26,4 +26,4 @@ Well, I was thinking that we could have all these new features:
 - Web GUI (Like the Portainer program, see the slave nodes and the master, with all its functions to be able to use)
 - Functions directly for production, avoiding ambiguous functions
 - Always encrypted networks
-- Automatic CI/CD by projects, through Jenkins proxy container
+- Automatic CI/CD by projects, through Jenkins native proxy container using Jenkinsfiles
