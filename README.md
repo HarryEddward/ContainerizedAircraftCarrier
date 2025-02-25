@@ -41,6 +41,4 @@ Well, I was thinking that we could have all these new features:
 
 SAC (**SwarmAircraftCarrier**)
 
-```sh
-docker-sac init --ip-advertise [IP] --pre-configuration-file [PATH FILE]
-```
+```docker-sac init --ip-advertise [IP] --pre-configuration-file [PATH_FILE]```
