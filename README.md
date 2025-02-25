@@ -45,11 +45,11 @@ SAC (**SwarmAircraftCarrier**)
 ### Initialize Node Master
 ```
 docker-sac init
-   --ip-advertise-master                             [IP] -- [192.168.1.136]
-   --pre-configuration-proyect-file                  [PATH_FILE] -- [Ex.: https://github.com/HarryEddward/ContainerizedAircraftCarrier/blob/main/sac.yaml?raw=true]
-   --ip-slave-publish-web-orchestrator-manager       [IP] -- [192.168.1.137] (Before the conexion, checks if the conexion with SSH is succeded and have internet conexion.)
-   --project-name                                    [PROYECT_NAME] -- [AppBackend]
-   --project-dir                                     [ABS_PATH_DIR] -- [/usr/HarryEddward/documents/project]
+   --ip-advertise-master                             [IP]              [192.168.1.136]
+   --pre-configuration-proyect-file                  [PATH_FILE]       [Ex.: https://github.com/[username]/[name_repo]/blob/main/sac.yaml?raw=true]
+   --ip-slave-publish-web-orchestrator-manager       [IP]              [192.168.1.137] (Before the conexion, checks if the conexion with SSH is succeded and have internet conexion.)
+   --project-name                                    [PROYECT_NAME]    [AppBackend]
+   --project-dir                                     [ABS_PATH_DIR]    [/usr/HarryEddward/documents/project]
 ```
 
 Return:
