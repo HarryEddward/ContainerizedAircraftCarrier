@@ -1,6 +1,6 @@
 # SwarmAircraftCarrier
 
-<img src="https://github.com/HarryEddward/ContainerizedAircraftCarrier/blob/main/.github/img/banner_full.png?raw=true" alt="alt text" width="400">
+<img src="https://github.com/HarryEddward/ContainerizedAircraftCarrier/blob/main/.github/img/banner_prod.png?raw=true" alt="alt text" width="400">
 
 ## Simple, fast, secure, and production-ready container orchestrator and more DevOps's program.
 
