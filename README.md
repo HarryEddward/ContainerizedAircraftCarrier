@@ -43,7 +43,14 @@ Well, I was thinking that we could have all these new features:
 SAC (**SwarmAircraftCarrier**)
 
 ### Initialize Node Master
-```docker-sac init --ip-advertise [IP] --pre-configuration-file [PATH_FILE]```
+```
+docker-sac init
+   --ip-advertise-master [IP]
+   --pre-configuration-proyect-file [PATH_FILE]
+   --ip-slave-publish-web-orchestrator-manager [IP]
+   --proyect-name [PROYECT_NAME]
+   --proyect-dir [PATH_DIR]
+```
 
 Return:
 ```
