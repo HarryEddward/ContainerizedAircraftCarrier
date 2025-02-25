@@ -17,6 +17,7 @@
 - ✍️ **Flexible, concise, avoid repeating yourself configuration**
 - 🔄 **Flexible like Kubernetes, but concise like Docker Swarm orchestrator**
 - 🔁 **Easy migration from Docker Swarm**
+- ⚖️ **Scale with more than +10.000 nodes**
 
 When you think about putting your own programs into production, you think about being able to isolate them so they are safe and not worry about the configuration, not worry about what happens from the orchestrator.
 
