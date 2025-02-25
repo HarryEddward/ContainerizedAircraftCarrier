@@ -38,6 +38,9 @@ Well, I was thinking that we could have all these new features:
 - Automatic CI/CD by projects, through Jenkins native proxy container using Jenkinsfiles
 
 ## How use it?
+
+SAC (**SwarmAircraftCarrier**)
+
 ```sh
-echo "Hola"
+docker-sac init --ip-advertise [IP] --pre-configuration-file [PATH FILE]
 ```
