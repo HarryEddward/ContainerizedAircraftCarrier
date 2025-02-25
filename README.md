@@ -60,6 +60,12 @@ Return:
 ** IP PUBLISHED (Node Master) **=> "192.168.1.163"
 ** PORT (To Connect Node Slaves) **=> "4488"
 ** PORT (UI Orchestrator Manager) **=> "5577"
+
+List of nodes conected (Via SSH Encrypted File):
+- 10.452.67.67 : CONNECTED (Latency 10ms)
+- 78.192.89.10 : NOT CONNECTED
+- 128.192.67.10 : CONNECTED (Latency 200ms)
+- ...
 ```
 
 ###
