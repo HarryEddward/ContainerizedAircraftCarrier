@@ -1,0 +1,29 @@
+/* Light Theme */
+:root {
+  --ifm-color-primary: #062730; /* Contorno y bordes internos */
+  --ifm-color-primary-dark: #052128;
+  --ifm-color-primary-darker: #041b20;
+  --ifm-color-primary-darkest: #031418;
+  --ifm-color-primary-light: #072f38;
+  --ifm-color-primary-lighter: #083740;
+  --ifm-color-primary-lightest: #094048;
+  --ifm-background-color: #92afb3; /* Color base de la imagen */
+  --ifm-background-surface-color: #ffffff; /* Fondo y decoración interna contornada */
+  --ifm-color-emphasis-300: #ffffff; /* Toque de detalle amarillo */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #92afb3; /* Toque de detalle amarillo */
+  --ifm-color-primary-dark: #d9d330;
+  --ifm-color-primary-darker: #bdb72a;
+  --ifm-color-primary-darkest: #9f9a23;
+  --ifm-color-primary-light: #faf34a;
+  --ifm-color-primary-lighter: #fcf65d;
+  --ifm-color-primary-lightest: #fefe71;
+  --ifm-background-color: #000000; /* Fondo y decoración interna contornada */
+  --ifm-background-surface-color: #062730; /* Contorno y bordes internos */
+  --ifm-color-emphasis-300: #92afb3; /* Color base de la imagen */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
