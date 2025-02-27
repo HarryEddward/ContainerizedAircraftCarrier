@@ -9,5 +9,8 @@
 
 
 ## Networking
-  - QUIC: Protocolo de alta disponibilidad y autoreparacion de streampipes ante fallos en segundo plano, teniendo propiedades de seguridad como el TCP y la retransmision de alta disponibilidad como UDP
+  - QUIC: Protocolo de alta disponibilidad y autoreparacion de streampipes ante fallos en segundo plano, teniendo propiedades de seguridad como el TCP y la retransmision de alta disponibilidad como UDP.
   - Nebula: Conexiónes QUIC mas ligeras, mas rápidas, menos costosas de operar que las VPN tradicionales. Ideales para microservicios, conexiónes rápidas y cambiantes.
+  - Plugin CNI: Creamos nuestro propio plugin para que las conexiones que vayamos a crear sean eficientes con Nebula + QUIC y siempre encriptadas.
+
+## Internal DNS
